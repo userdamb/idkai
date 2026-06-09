@@ -1,0 +1,30 @@
+# Зависимости
+node_modules/
+
+# Сборка
+dist/
+dist-ssr/
+
+# Секреты и локальные конфиги
+.env
+.env.*
+*.local
+
+# Базы данных (создаются на лету)
+*.db
+*.db-wal
+*.db-shm
+
+# Логи
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Системное / редакторы
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.sw?
+.claude/
